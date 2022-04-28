@@ -48,7 +48,7 @@ class Game
                 else
                   break
                 end
-                puts @board.display_board
+                #puts @board.display_board
             end
                 if @board.victory? == true
                     switch_player
